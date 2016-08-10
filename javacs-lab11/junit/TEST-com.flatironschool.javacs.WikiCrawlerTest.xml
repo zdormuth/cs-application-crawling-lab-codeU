@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ZMD" name="com.flatironschool.javacs.WikiCrawlerTest" skipped="0" tests="1" time="4.521" timestamp="2016-08-10T04:52:41">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="ZMD" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 10" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes" />
+    <property name="env.COMPUTERNAME" value="ZMD" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="env.CHROME_ALLOCATOR" value="TCMALLOC" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files\Ant" />
+    <property name="java.runtime.version" value="1.8.0_77-b03" />
+    <property name="env.HOMEPATH" value="\Users\Zoe D" />
+    <property name="user.name" value="Zoe D" />
+    <property name="env.USER" value="Zoe D" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="env.git_install_root" value="C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8" />
+    <property name="java.version" value="1.8.0_77" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\Zoe D\AppData\Local\Temp\" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.SSH_AGENT_PID" value="6416" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_77\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="env.github_shell" value="true" />
+    <property name="user.country" value="US" />
+    <property name="ant.file.JavaCS" value="C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\build.xml" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre" />
+    <property name="env.PSModulePath" value="C:\Users\Zoe D\Documents\WindowsPowerShell\Modules;C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\Zoe D\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.github_posh_git" value="C:\Users\Zoe D\AppData\Local\GitHub\PoshGit_a2be688889e1b24632e83adccd9b2a44b91d655b" />
+    <property name="ant.file" value="C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.77-b03" />
+    <property name="env.USERPROFILE" value="C:\Users\Zoe D" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Program Files\Ant\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.SSL_CERT_FILE" value="C:\RailsInstaller\cacert.pem" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TERM" value="msys" />
+    <property name="env.TMP" value="C:\Users\Zoe D\AppData\Local\Temp\" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="env.PSExecutionPolicyPreference" value="Unrestricted" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="target" value="1.7" />
+    <property name="user.home" value="C:\Users\Zoe D" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\cmd;C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\usr\bin;C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\usr\share\git-tfs;C:\Users\Zoe D\AppData\Local\Apps\2.0\EJ5ZVHML.7BN\Y6WGCCON.8V2\gith..tion_317444273a93ac29_0003.0002_34b4671ab86a4854;C:\Users\Zoe D\AppData\Local\GitHub\lfs-amd64_1.2.0;C:\Users\Zoe D\AppData\Local\Apps\2.0\EJ5ZVHML.7BN\Y6WGCCON.8V2\gith..tion_317444273a93ac29_0003.0002_34b4671ab86a4854\NativeBinaries\x86;C:\jdk-1_5_0_08-windows-i586-p.exe;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files (x86)\Skype\Phone\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Ant\bin;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\bin;C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\lib\jedis-2.8.0.jar;C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\lib\jsoup-1.8.3.jar;C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\lib\junit-4.12.jar;C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\lib\hamcrest-core-1.3.jar;C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\lib\hamcrest-library-1.3.jar;C:\Program Files\Ant\lib\ant-launcher.jar;C:\Program Files\Ant\lib\ant.jar;C:\Program Files\Ant\lib\ant-junit.jar;C:\Program Files\Ant\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiCrawlerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\junit\TEST-com.flatironschool.javacs.WikiCrawlerTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\junitvmwatcher6261522392935407631.properties propsfile=C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11\junit503188653020491139.properties" />
+    <property name="env.github_git" value="C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="C:\Users\Zoe D" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Program Files\Ant" />
+    <property name="env.PROCESSOR_REVISION" value="4501" />
+    <property name="java.io.tmpdir" value="C:\Users\Zoe D\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/ssh-Jmd9oQpy5vFy/agent.8176" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" test -buildfile javacs-lab11/build.xml" />
+    <property name="env.PLINK_PROTOCOL" value="ssh" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Zoe D\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.CPL" />
+    <property name="env.Path" value="C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\cmd;C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\usr\bin;C:\Users\Zoe D\AppData\Local\GitHub\PortableGit_624c8416ee51e205b3f892d1d904e06e6f3c57c8\usr\share\git-tfs;C:\Users\Zoe D\AppData\Local\Apps\2.0\EJ5ZVHML.7BN\Y6WGCCON.8V2\gith..tion_317444273a93ac29_0003.0002_34b4671ab86a4854;C:\Users\Zoe D\AppData\Local\GitHub\lfs-amd64_1.2.0;C:\Users\Zoe D\AppData\Local\Apps\2.0\EJ5ZVHML.7BN\Y6WGCCON.8V2\gith..tion_317444273a93ac29_0003.0002_34b4671ab86a4854\NativeBinaries\x86;C:\jdk-1_5_0_08-windows-i586-p.exe;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files (x86)\Skype\Phone\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Ant\bin;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\" />
+    <property name="env.EDITOR" value="GitPad" />
+    <property name="basedir" value="C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU\javacs-lab11" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Program Files\Ant\lib\ant.jar" />
+    <property name="env.USERNAME" value="Zoe D" />
+    <property name="source" value="1.7" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="ZMD" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="C:\Users\Zoe D\Documents\GitHub\cs-application-crawling-lab-codeU" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.posh_git" value="C:\Users\Zoe D\AppData\Local\GitHub\PoshGit_a2be688889e1b24632e83adccd9b2a44b91d655b\profile.example.ps1" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.WikiCrawlerTest" name="testCrawl" time="4.445" />
+  <system-out><![CDATA[Indexing https://en.wikipedia.org/wiki/Java_(programming_language)
+Indexing https://en.wikipedia.org/wiki/Programming_language
+Indexing https://en.wikipedia.org/wiki/Concurrent_computing
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

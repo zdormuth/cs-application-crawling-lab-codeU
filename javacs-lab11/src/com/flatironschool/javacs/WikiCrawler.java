@@ -1,3 +1,4 @@
+
 package com.flatironschool.javacs;
 
 import java.io.IOException;
@@ -24,6 +25,8 @@ public class WikiCrawler {
 	
 	// fetcher used to get pages from Wikipedia
 	final static WikiFetcher wf = new WikiFetcher();
+	
+	private boolean testing = false;
 
 	/**
 	 * Constructor.
@@ -31,6 +34,7 @@ public class WikiCrawler {
 	 * @param source
 	 * @param index
 	 */
+
 	public WikiCrawler(String source, JedisIndex index) {
 		this.source = source;
 		this.index = index;
@@ -42,30 +46,74 @@ public class WikiCrawler {
 	 * 
 	 * @return
 	 */
+
+
 	public int queueSize() {
 		return queue.size();	
 	}
-
-	/**
-	 * Gets a URL from the queue and indexes it.
-	 * @param b 
-	 * 
-	 * @return Number of pages indexed.
-	 * @throws IOException
-	 */
+	
 	public String crawl(boolean testing) throws IOException {
-        // FILL THIS IN!
-		return null;
+		// get url from queue
+		String url = queue.poll(); // receives element (head) and removes from queue (FIFO)
+		// if testing is false and url is indexed --> return null
+		if (!testing && index.isIndexed(url)) 
+		{
+			// do not index url again and return null
+			return null;
+		}
+		// testing is true
+		Elements pageContent;
+		if (testing) {
+			// read cached contents of page 
+			//System.out.println("testing true");
+			pageContent = wf.readWikipedia(url);
+		}
+		// testing is false && url is not indexed
+		else {
+			// read current contents of page
+			//System.out.println("testing false");
+			pageContent = wf.fetchWikipedia(url);
+		}
+		// index page
+		index.indexPage(url, pageContent);
+		// find all internal links and add them to queue
+		queueInternalLinks(pageContent);
+		// return URL of the page it indexed
+		return url;
 	}
 	
 	/**
 	 * Parses paragraphs and adds internal links to the queue.
+	 * Links are in mw-context and begin with href=/wiki/
 	 * 
 	 * @param paragraphs
 	 */
 	// NOTE: absence of access level modifier means package-level
-	void queueInternalLinks(Elements paragraphs) {
-        // FILL THIS IN!
+
+	public void queueInternalLinks(Elements paragraphs) {
+		//parse paragraph
+		for (Element paragraph: paragraphs) { // go through each individual paragraph in paragraphs (the entire body of page)
+			Elements paras = paragraph.select("a"); // find links (a tag with href attributes)
+			for (Element text: paras) { // go through each TextNode in paragraph
+				String relativeURL = text.attr("href");
+				
+				if (relativeURL.startsWith("/wiki/")) {
+					// get absoulate URL 
+					String absoluteURL = text.absUrl("abs:href");
+					//if (testing) {
+					//queue.offer(relativeURL);
+					//} 
+					//else {
+
+					queue.offer(absoluteURL);
+						//}
+					//System.out.println("relativeURL is: " + relativeURL);
+					
+					//System.out.println("absoluteURL is: " + absoluteURL);
+					//queue.offer(relativeURL);//queue.offer(absoluteURL);
+				}
+			}
+		}
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -74,6 +122,7 @@ public class WikiCrawler {
 		Jedis jedis = JedisMaker.make();
 		JedisIndex index = new JedisIndex(jedis); 
 		String source = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+		//String source = "https://en.wikipedia.org/w/index.php?title=Java_(programming_language)&oldid=715811047";
 		WikiCrawler wc = new WikiCrawler(source, index);
 		
 		// for testing purposes, load up the queue
@@ -95,3 +144,4 @@ public class WikiCrawler {
 		}
 	}
 }
+
